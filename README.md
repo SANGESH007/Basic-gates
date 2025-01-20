@@ -48,3 +48,50 @@ L = 100n
 
 Delay b/w Schmatic and Layout = 4.17852 ps
 ![Screenshot 2025-01-13 230025](https://github.com/user-attachments/assets/4b078536-0bd0-4948-9c0a-65286950b6e1)
+
+## NAND
+
+This is a Symmetric Nand where the Pmos and Nmos sizes are calculated.\
+Pmos: \
+W = 120n \
+L = 100n
+
+Nmos: \
+W = 165n \
+L = 100n 
+
+### Schematic
+![Screenshot 2025-01-18 193622](https://github.com/user-attachments/assets/84ece7b3-ceb0-45ad-a106-a9cf0ffd1695)
+
+### Symbol
+![Screenshot 2025-01-21 005501](https://github.com/user-attachments/assets/57ac037f-a349-466c-be71-57b420fff176)
+
+### TestBench
+![Screenshot 2025-01-21 005625](https://github.com/user-attachments/assets/c4a9c52c-3096-46a4-b13a-e0a670533b10)
+
+### Layout
+![Screenshot 2025-01-21 005202](https://github.com/user-attachments/assets/943b0531-6d31-405d-90b9-6293926c025d)
+
+### DRC check
+![Screenshot 2025-01-18 193255](https://github.com/user-attachments/assets/8d2e23d4-611a-4650-a728-f6821115c77f)
+
+### LVS check
+![Screenshot 2025-01-18 193504](https://github.com/user-attachments/assets/08bae571-571e-45a0-8cff-72255bcd5637)
+
+![Screenshot 2025-01-18 193543](https://github.com/user-attachments/assets/8b2dcdba-ae59-4168-92a7-daf3cc1beb43)
+
+### RC Extraction
+![Screenshot 2025-01-18 193828](https://github.com/user-attachments/assets/59a1605a-4ae3-4c55-a7af-2162055c9933)
+![Screenshot 2025-01-21 004844](https://github.com/user-attachments/assets/0b5e11e1-402c-4c74-91cb-78e1235de40f)
+
+### Layout Vs Schematic
+
+#### Dc Analysis
+![Screenshot 2025-01-21 003828](https://github.com/user-attachments/assets/eb579c96-3259-4a65-92d7-3f68315b253b)
+
+### Transient Analysis
+![Screenshot 2025-01-21 004451](https://github.com/user-attachments/assets/40355bc2-0409-46de-8a10-004ee92b2a27)
+
+![Screenshot 2025-01-21 004646](https://github.com/user-attachments/assets/220755e5-eac5-4fef-b14d-e3b939442416)
+
+Delay b/w Schmatic and Layout = 5.3173 ps
