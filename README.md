@@ -95,3 +95,50 @@ L = 100n
 ![Screenshot 2025-01-21 004646](https://github.com/user-attachments/assets/220755e5-eac5-4fef-b14d-e3b939442416)
 
 Delay b/w Schmatic and Layout = 5.3173 ps
+
+## Nor
+
+This is a Symmetric Nor where the Pmos and Nmos sizes are calculated.\
+Pmos: \
+W = 1.9u \
+L = 100n
+
+Nmos: \
+W = 120n \
+L = 100n 
+
+### Schematic
+![Screenshot 2025-01-21 010623](https://github.com/user-attachments/assets/706fa3da-ca7c-40fa-8441-5e07b59fc61d)
+
+### Symbol
+![Screenshot 2025-01-21 012426](https://github.com/user-attachments/assets/8a096cd9-3c0a-419c-ad80-88b64853f6c4)
+
+
+### TestBench
+![Screenshot 2025-01-21 012443](https://github.com/user-attachments/assets/07a3a556-4e74-48dc-86c8-b0f32c1c7fbe)
+
+### Layout
+![Screenshot 2025-01-21 010655](https://github.com/user-attachments/assets/33e1b21d-b995-48e3-b7a9-c9c640a1f459)
+
+### DRC check
+![Screenshot 2025-01-19 151747](https://github.com/user-attachments/assets/ac9225f7-c02d-4bfa-8394-59e5c2f8b353)
+
+### LVS check
+![Screenshot 2025-01-19 151841](https://github.com/user-attachments/assets/d477ac26-e145-47ba-ae8d-088b7f46c781)
+![Screenshot 2025-01-19 151904](https://github.com/user-attachments/assets/e0b31791-34d0-447c-9601-77db0e7e805a)
+
+### RC Extraction
+![Screenshot 2025-01-19 152012](https://github.com/user-attachments/assets/e5abc4d8-5bb5-4f0d-9f41-b4935c2589a8)
+![Screenshot 2025-01-21 010712](https://github.com/user-attachments/assets/173d8828-443f-4f58-8eca-29bda0f7632b)
+
+### Layout Vs Schematic
+
+#### Dc Analysis
+
+### Transient Analysis
+![Screenshot 2025-01-21 011749](https://github.com/user-attachments/assets/49ff06b4-5989-4a8c-879f-5c41612224ea)
+![Screenshot 2025-01-21 011932](https://github.com/user-attachments/assets/b549fe60-aca6-4315-90c9-7cbb9bb7df88)
+
+Delay b/w Schmatic and Layout = 2.5987 ps
+
+
