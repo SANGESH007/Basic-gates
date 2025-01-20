@@ -134,6 +134,7 @@ L = 100n
 ### Layout Vs Schematic
 
 #### Dc Analysis
+![Screenshot 2025-01-18 235707](https://github.com/user-attachments/assets/41e33035-7192-46ee-936f-b34b5186aab6)
 
 ### Transient Analysis
 ![Screenshot 2025-01-21 011749](https://github.com/user-attachments/assets/49ff06b4-5989-4a8c-879f-5c41612224ea)
@@ -141,4 +142,47 @@ L = 100n
 
 Delay b/w Schmatic and Layout = 2.5987 ps
 
+## XOR
 
+This is a Symmetric Xor where the Pmos and Nmos sizes are calculated.\
+Pmos: \
+W = 120n \
+L = 100n
+
+Nmos: \
+W = 120n \
+L = 100n 
+
+### Schematic
+![Screenshot 2025-01-21 013731](https://github.com/user-attachments/assets/ada2ac64-0323-4801-b997-cd5d2459cb42)
+
+### Symbol
+![Screenshot 2025-01-21 013744](https://github.com/user-attachments/assets/a95531b8-e975-4ee4-8e92-d2b1cf40bb21)
+
+### TestBench
+![Screenshot 2025-01-21 014120](https://github.com/user-attachments/assets/1f7402e3-589c-4a37-9fc3-1d651e3242e9)
+
+### Layout
+![Screenshot 2025-01-21 013919](https://github.com/user-attachments/assets/fc14ea6b-5ded-4de1-ba28-af88601a06aa)
+
+### DRC check
+![Screenshot 2025-01-19 230429](https://github.com/user-attachments/assets/837f5df6-bd19-452f-9d0e-1084f5494abe)
+
+### LVS check
+![Screenshot 2025-01-19 230504](https://github.com/user-attachments/assets/6e2f1071-f58f-4f93-9ff6-97cc94561b9b)
+![Screenshot 2025-01-19 230605](https://github.com/user-attachments/assets/39ee8d97-f68e-48e6-ad0b-d773433acd79)
+
+### RC Extraction
+![Screenshot 2025-01-21 013937](https://github.com/user-attachments/assets/72872f5c-5946-4934-8ae6-3ffec8191096)
+
+### Layout Vs Schematic
+
+#### Dc Analysis
+![Screenshot 2025-01-21 015739](https://github.com/user-attachments/assets/514b5c56-0550-4e88-9616-d288ba13359a)
+
+### Transient Analysis
+![Screenshot 2025-01-21 014549](https://github.com/user-attachments/assets/f5312bb7-33fb-418b-ab36-e4799fe413e3)
+![Screenshot 2025-01-21 014824](https://github.com/user-attachments/assets/8145aa06-25fa-4a98-903d-b4266e4f1556)
+![Screenshot 2025-01-21 015013](https://github.com/user-attachments/assets/9a4d8b12-b307-4cd9-b837-1bce25361aca)
+
+Delay b/w Schmatic and Layout = 14.23 ps
