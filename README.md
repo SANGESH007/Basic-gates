@@ -1,7 +1,7 @@
 
 # Basic Gates Schematic to Layout in 90nm
 
-This repository Contains the Basic gates such as Not, Nand, Nor, Xor, Xnor, And & OR gates from schematic to layout generation using cadence virtuoso.
+This repository Contains the Basic gates such as Not, Nand, Nor, Xor gates from schematic to layout generation using cadence virtuoso.
 
 ## Inverter
 
