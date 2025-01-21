@@ -14,6 +14,18 @@ Nmos: \
 W = 120n \
 L = 100n 
 
+## Specifications
+
+| Parameter                   |  Schematic Value | Layout Value
+|:---------------------------:|:-----------:|:-----------:|
+| Technology                  | 90 nm        | 90 nm          |
+| Supply Voltage              | 1 V        | 1 V          |
+| Risetime                    | 34.4165 ps | 37.344 ps    |
+| Falltime                    | 33.8056 ps | 37.4098 ps   |
+| Propagation Delay           | 13.741 ps  | 17.6577 ps   |
+| Average Power               | 162.339 nW | 167.289 nW   |
+| PDP                         | 2.2307a    | 2.95393a     |
+
 ### Schematic
 ![Screenshot 2025-01-20 001257](https://github.com/user-attachments/assets/068304d3-b323-4ab5-9225-7ab8c5766a15)
 
@@ -49,6 +61,12 @@ L = 100n
 Delay b/w Schmatic and Layout = 4.17852 ps
 ![Screenshot 2025-01-13 230025](https://github.com/user-attachments/assets/4b078536-0bd0-4948-9c0a-65286950b6e1)
 
+### Schematic Specifications
+![Screenshot 2025-01-21 121305](https://github.com/user-attachments/assets/8f281ad9-0fe2-4bea-8e63-4d60b3bce6a8)
+
+### Layout Specifications
+![Screenshot 2025-01-21 121551](https://github.com/user-attachments/assets/3ada460f-74a3-4f8f-957e-20faa4ac68f5)
+
 ## NAND
 
 This is a Symmetric Nand where the Pmos and Nmos sizes are calculated.\
@@ -59,6 +77,18 @@ L = 100n
 Nmos: \
 W = 165n \
 L = 100n 
+
+## Specifications
+
+| Parameter                   |  Schematic Value | Layout Value
+|:---------------------------:|:-----------:|:-----------:|
+| Technology                  | 90 nm        | 90 nm          |
+| Supply Voltage              | 1 V        | 1 V          |
+| Risetime                    | 47.1703 ps | 50.9617 ps    |
+| Falltime                    | 32.7821 ps | 37.0422 ps   |
+| Propagation Delay           | 42.0806 ps  | 45.4447 ps   |
+| Average Power               | 94.7146 nW | 99.4063 nW   |
+| PDP                         | 3.98565a    | 4.51749a     |
 
 ### Schematic
 ![Screenshot 2025-01-18 193622](https://github.com/user-attachments/assets/84ece7b3-ceb0-45ad-a106-a9cf0ffd1695)
@@ -92,9 +122,18 @@ L = 100n
 ### Transient Analysis
 ![Screenshot 2025-01-21 004451](https://github.com/user-attachments/assets/40355bc2-0409-46de-8a10-004ee92b2a27)
 
+Delay b/w Schmatic and Layout = 5.3173 ps
 ![Screenshot 2025-01-21 004646](https://github.com/user-attachments/assets/220755e5-eac5-4fef-b14d-e3b939442416)
 
-Delay b/w Schmatic and Layout = 5.3173 ps
+
+
+### Schematic Specifications
+![Screenshot 2025-01-21 124057](https://github.com/user-attachments/assets/5c68fe16-bd42-4df5-a545-f712fd476023)
+
+
+### Layout Specifications
+![Screenshot 2025-01-21 124305](https://github.com/user-attachments/assets/f6d0c95c-8e9d-4b50-bdca-3a2e2c16cdb4)
+
 
 ## Nor
 
